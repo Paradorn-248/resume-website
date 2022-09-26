@@ -95,7 +95,7 @@ export const projects = [
   {
     name: "Safe-Home",
     details: [
-      "This project is designed to keep homes safe from accidents such as floods, gas leaks, fires, earthquakes so that homeowners can deal with them in time. This project use FastAPI as backend, use HTML, React, CSS as frontend, use Arduino to control sensor.",
+      "This project is designed to keep homes safe from accidents such as floods, gas leaks, fires, earthquakes so that homeowners can deal with them in time. This project use FastAPI as backend, use HTML, React, CSS, ...... as frontend, use Arduino to control sensor.",
     ],
     url: "github.com/Exceed-Safe-Home"
   },
