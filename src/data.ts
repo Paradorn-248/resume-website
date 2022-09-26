@@ -39,7 +39,7 @@ export const technologies = [
 export const educations = [
   {
     head: "B.Eng. Computer Engineering",
-    details: "Kasetsart University, TH. 2020-2023 (GPA 3.65 - 4 Semester)",
+    details: "Kasetsart University, TH. 2020-2023 (GPA 3.84 - 4 Semester)",
   },
 ]
 

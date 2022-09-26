@@ -5,12 +5,12 @@
   import HideToggle from "./HideToggle.svelte"
   import {
     educations,
-    fullVersionLink,
     introData,
     projects,
     sourceLink,
     technologies,
     workExperiences,
+    references
   } from "./data"
 
   let editMode = false
@@ -114,12 +114,36 @@
     </ul>
   </section>
 
-  <footer class="print-only">
+  <section>
+    <HideToggle />
+    <h2 class="text-2xl print:text-4xl uppercase text-left">references</h2>
+    <hr />
+
+    <ul class="text-left list-disc pl-8">
+      {#each references as ref}
+        <li>
+          <HideToggle />
+          {#if ref.url == undefined}
+            <strong>{ref.name}</strong>
+          {:else}
+            <a href="https://{ref.url}" target="_blank" rel="noreferrer"
+              ><strong>{ref.name}</strong></a
+            >
+          {/if}
+          {#each ref.details as detail}
+            <i><ul class="index">{detail}</ul> </i>
+          {/each}
+        </li>
+      {/each}
+    </ul>
+  </section>
+
+  <!-- <footer class="print-only">
     (See <a href={fullVersionLink} target="_blank" rel="noopener"
       >full version</a
     >
     or <a href={sourceLink} target="_blank" rel="noopener">source</a>)
-  </footer>
+  </footer> -->
 </main>
 
 <style>
