@@ -32,7 +32,7 @@ export const technologies = [
   {
     section: "Other:",
     details:
-      "Vercel, MongoDB atlas",
+      "Vercel, MongoDB Atlas",
   },
 ]
 
