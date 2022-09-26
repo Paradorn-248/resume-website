@@ -6,6 +6,7 @@
   export let github: string = ""
   export let linkedin: string = ""
   export let location: string = ""
+  export let website: string = ""
 </script>
 
 <div
@@ -18,7 +19,7 @@
   </div>
 
   <h2
-    class="flex-none order-first sm:order-none print:order-none text-4xl sm:text-2xl md:text-3xl lg:text-6xl text-center p-4 print:pt-0"
+    class="flex-none order-first sm:order-none print:order-none text-3xl sm:text-2xl md:text-3xl lg:text-5xl text-center p-4 print:pt-0"
   >
     {name}
     <span class="block -mt-1 text-base lg:text-lg">({nickname})</span>
@@ -30,6 +31,11 @@
     <p>
       <a href={`https://github.com/${github}`} target="_blank" rel="noreferrer"
         >github.com/{github}</a
+      >
+    </p>
+    <p>
+      <a href={`https://${website}`} target="_blank" rel="noreferrer"
+        >{website}</a
       >
     </p>
     <p>

@@ -11,6 +11,7 @@ export const introData = {
   github: "Paradorn-248",
   linkedin: "paradorn-watcharasemakul-4732641a1",
   location: "Bangkok, Thailand",
+  website: "web.facebook.com/paradorn.watcharasemakul",
 }
 
 export const technologies = [

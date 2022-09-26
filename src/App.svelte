@@ -23,8 +23,8 @@
 
 <Tailwind />
 
-<header class="web-only text-center p-4 sm:p-6 bg-purple-400 text-white w-screen">
-  <h1 class="text-4xl">Resume</h1>
+<header class="web-only text-center p-4 sm:p-6 bg-blue-400 text-white w-screen">
+  <h1 class="text-4xl">Résumé</h1>
   <h3>
     <button on:click={toggleMode} class="underline text-lg"
       >{editMode ? "[View]" : "[Edit]"}</button
