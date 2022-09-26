@@ -66,7 +66,7 @@ export const workExperiences = [
   {
     position: "Participant",
     company: "POSN Computer Olympiad Camp (2nd camp)",
-    url: "",
+    url: "https://web.facebook.com/ScienceSilpakornUniversity/",
     years: ["7","22 Mar 2019"],
     details: [
       "I participated in POSN camp to learn C and C++ language at Silpakorn University.",
