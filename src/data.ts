@@ -86,7 +86,7 @@ export const workExperiences = [
 
 export const projects = [
   {
-    name: "Software Engineering Project",
+    name: "School Club Register Website",
     details: [
       "",
     ],
@@ -114,7 +114,7 @@ export const projects = [
     url: "github.com/Paradorn-248/MIKELab-Project"
   },
   {
-    name: "TetrisGame",
+    name: "Tetris Upgrade",
     details: [
       "",
     ],
