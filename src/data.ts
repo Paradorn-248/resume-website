@@ -88,21 +88,21 @@ export const projects = [
   {
     name: "School Club Register Website",
     details: [
-      "",
+      "This project is a website to register for the school's clubs that come to use the service. School will have to pay an annual service fee. It contains important APIs such as annual payments, signing up and verifying identity via email, club registration, club reviews. This project use Express.js as backend, use HTML, CSS, ...... as frontend",
     ],
     url: "github.com/Barinstrom",
   },
   {
     name: "Safe-Home",
     details: [
-      "This project is designed to keep homes safe from accidents such as floods, gas leaks, fires, earthquakes so that homeowners can deal with them in time. This project use FastAPI as backend, use html, React, CSS as frontend, use Arduino to control sensor.",
+      "This project is designed to keep homes safe from accidents such as floods, gas leaks, fires, earthquakes so that homeowners can deal with them in time. This project use FastAPI as backend, use HTML, React, CSS as frontend, use Arduino to control sensor.",
     ],
     url: "github.com/Exceed-Safe-Home"
   },
   {
     name: "Pet feeder with Arduino color sensor",
     details: [
-      "This project was created so that people who own dogs or cats don't have to hire someone to take care of their pets when they're not around or some people have different kinds of animals, they have to feed differently. This machine will feed the pet only when the animal is within the operating range of the machine and wears a shirt of the specific color to the machine color sensor. This project use Arduion to control sensor.",
+      "This project was created so that people who own dogs or cats don't have to hire someone to take care of their pets when they're not around or some people have different kinds of animals, they have to feed differently. This machine will feed the pet only when the animal is within the operating range of the machine and wears a shirt of the specific color to the machine color sensor. This project use Arduion to control sensors and motors.",
     ],
     url: "github.com/Paradorn-248/Pet_feeder-Project"
   },
