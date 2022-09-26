@@ -47,42 +47,41 @@ export const educations = [
 export const workExperiences = [
   {
     position: "Finalist",
-    company: "ASC Students Supercomputer Challenge",
+    company: "ASC Student Supercomputer Challenge",
     url: "http://www.asc-events.org/ASC22/",
     years: ["4","10 Nov 2022"],
     details: [
-      "I’m representative of Kasetsart university to compete the ASC Student Supercomputer Challenge 2022, the world’s largest supercomputing hackathon.",
+      "I competed in the ASC Student Supercomputer Challenge as a representative of Kasetsart University",
     ],
   },
   {
     position: "Teaching assistant",
-    company: "Massive Information and Knowledge Engineering Laboratory",
+    company: "Massive Information and Knowledge Engineering Laboratory(MIKELab)",
     url: "https://mike.cpe.ku.ac.th/",
     years: ["Jun 2021","Oct 2021"],
     details: [
-      "I'm TA in 01204111 Computer & Programming course for first-year computer engineering student, Kasetsart University.",
-    ],
-  },
-  {
-    position: "Internship Student",
-    company: "Thailand National Metal and Materials Technology Center",
-    url: "https://www.mtec.or.th/",
-    years: ["May 2021","Jun 2021"],
-    details: [
-      "Optimized applications to preferred nanocrystalline configurations in ternary and multicomponent alloys.",
-      "Optimized the microstructures building time to be 90% faster than existing source code.",
-      "Optimized source code to compile on Cython libraries.",
+      "I am a teaching assistant in 01204111 Computer & Programming subject for first-year computer engineering student using python.",
     ],
   },
   {
     position: "Participant",
-    company: "15th  Thailand Olympiad in Informatics",
-    url: "https://www.facebook.com/toi.posn/",
-    years: ["4","7 Jun 2019"],
+    company: "POSN Computer Olympiad Camp (2nd camp)",
+    url: "",
+    years: ["7","22 Mar 2019"],
     details: [
-      " I was selected to represent TOI participant from The Promotion of Academic Olympiad and Development of Science Education Foundation under the patronage camp (POSN), Silpakorn University center.",
+      "I participated in POSN camp to learn C and C++ language at Silpakorn University.",
     ],
   },
+  {
+    position: "Training",
+    company: "Introduction to AI and Machine Learning",
+    url: "https://web.facebook.com/DAT.KUSRC",
+    years: ["7","8 May 2022"],
+    details: [
+      "I participated in Digital Academy Thailand to learn AI and Machine Learning course."
+    ],
+  },
+  
 ]
 
 export const projects = [
