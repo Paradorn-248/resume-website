@@ -23,7 +23,7 @@
 
 <Tailwind />
 
-<header class="web-only text-center p-4 sm:p-6 bg-blue-800 text-white w-screen">
+<header class="web-only text-center p-4 sm:p-6 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white w-screen">
   <h1 class="text-4xl">Resume</h1>
   <h3>
     <button on:click={toggleMode} class="underline text-lg"
