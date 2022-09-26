@@ -2,12 +2,10 @@
   import Tailwind from "./Tailwind.svelte"
   import Intro from "./Intro.svelte"
   import Work from "./Work.svelte"
-  import Kofi from "./Kofi.svelte"
   import HideToggle from "./HideToggle.svelte"
   import {
     educations,
     fullVersionLink,
-    interests,
     introData,
     projects,
     sourceLink,
@@ -22,17 +20,12 @@
   }
 </script>
 
-<!-- Remove this is you does not want Kofi widget on your site -->
-{#if introData.github == "narze"}
-  <Kofi name={introData.github} />
-{/if}
-
 <Tailwind />
 
 <header
   class="web-only text-center p-4 sm:p-6 bg-green-400 text-white w-screen"
 >
-  <h1 class="text-4xl">Resumette</h1>
+  <h1 class="text-4xl">Resume</h1>
   <h3>
     <button on:click={toggleMode} class="underline text-lg"
       >{editMode ? "[View]" : "[Edit]"}</button
@@ -116,21 +109,6 @@
           <a href="https://{project.url}" target="_blank" rel="noreferrer"
             ><strong>{project.url}</strong></a
           >
-        </li>
-      {/each}
-    </ul>
-  </section>
-
-  <section>
-    <HideToggle />
-    <h2 class="text-2xl print:text-4xl uppercase text-left">Interests</h2>
-    <hr />
-
-    <ul class="text-left list-disc pl-8">
-      {#each interests as interest}
-        <li>
-          <HideToggle />
-          {interest}
         </li>
       {/each}
     </ul>
