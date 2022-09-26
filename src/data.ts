@@ -121,6 +121,6 @@ export const references = [
       "Kasetsart University",
       "Bangkok, Thailand",
     ],
-    url: "https://research.ku.ac.th/forest/Person.aspx?id=480665",
+    url: "research.ku.ac.th/forest/Person.aspx?id=480665",
   },
 ]
