@@ -114,21 +114,13 @@ export const projects = [
 ]
 export const references = [
   {
-    name: "Asst. Prof. Dr. Chaiporn Jaikaeo",
+    name: "Dr. Monchai Sopitkamon",
     details: [
-      "Intelligent Wireless Network Group",
+      "RFID, Web Services, Service Oriented Architecture",
       "Department of Computer Engineering",
       "Kasetsart University",
       "Bangkok, Thailand",
     ],
-    url: "cpe.ku.ac.th/~cpj/",
-  },
-  {
-    name: "Supornchai Tiamtongorn",
-    details: [  
-      "Computer Teacher / Computer Technician",
-      "Department of Science and Technology, Prommanusorn Phetchaburi School",
-      "Phetchaburi, Thailand",
-    ]
+    url: "https://research.ku.ac.th/forest/Person.aspx?id=480665",
   },
 ]
