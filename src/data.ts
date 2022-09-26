@@ -49,7 +49,7 @@ export const workExperiences = [
     position: "Finalist",
     company: "ASC Student Supercomputer Challenge",
     url: "http://www.asc-events.org/ASC22/",
-    years: ["4","10 Nov 2022"],
+    years: ["4", "10 Nov 2022"],
     details: [
       "I competed in the ASC Student Supercomputer Challenge as a representative of Kasetsart University",
     ],
@@ -58,7 +58,7 @@ export const workExperiences = [
     position: "Teaching assistant",
     company: "Massive Information and Knowledge Engineering Laboratory(MIKELab)",
     url: "https://mike.cpe.ku.ac.th/",
-    years: ["Jun 2021","Oct 2021"],
+    years: ["Jun 2021", "Oct 2021"],
     details: [
       "I am a teaching assistant in 01204111 Computer & Programming subject for first-year computer engineering student using python.",
     ],
@@ -67,48 +67,58 @@ export const workExperiences = [
     position: "Participant",
     company: "POSN Computer Olympiad Camp (2nd camp)",
     url: "https://web.facebook.com/ScienceSilpakornUniversity/",
-    years: ["7","22 Mar 2019"],
+    years: ["7", "22 Mar 2019"],
     details: [
       "I participated in POSN camp to learn C and C++ language at Silpakorn University.",
     ],
   },
   {
     position: "Training",
-    company: "Introduction to AI and Machine Learning",
+    company: "Introduction to AI and Machine Learning course",
     url: "https://web.facebook.com/DAT.KUSRC",
-    years: ["7","8 May 2022"],
+    years: ["7", "8 May 2022"],
     details: [
-      "I participated in Digital Academy Thailand to learn AI and Machine Learning course."
+      "I participated in Digital Academy Thailand to learn AI and Machine Learning course using tensorflow and scikit-learn."
     ],
   },
-  
+
 ]
 
 export const projects = [
   {
-    name: "Face recognition to unlock the door",
-    details:[
-      "This is the security door lock system. Users must be authorized by the system to unlock the system. The system will authorize from the user's face. and then compare it with the existingdatabase.This project used OpenCV to make face recognition system, Tkinter for frontend, and PyUSB to communicate between hardware and frontend.",
+    name: "Software Engineering Project",
+    details: [
+      "",
     ],
-    url: "github.com/stamp465/Practicum",
+    url: "github.com/Barinstrom",
   },
   {
-    name: "RainDeer tutoring school’s registration system",
-    details:[
-      "The system was created to reduce the use of paper in registration. And makes managing a list of students more convenient. This project made me learn to use the database system with MongoDB atlas and web design.",
+    name: "Safe-Home",
+    details: [
+      "This project is designed to keep homes safe from accidents such as floods, gas leaks, fires, earthquakes so that homeowners can deal with them in time.",
     ],
+    url: "github.com/Exceed-Safe-Home"
   },
   {
-    name: "Prommanusorn school’s enrollment system",
-    details:[
-      "The system was created as a replacement for the existing enrollment system. There are many problems, such as the inability to accommodate large numbers of people, the inability of students to cancel their enrollment. This project made me learn to use new web frameworks such as React, firebase (Database), and Netlify (Hosting).",
+    name: "Pet feeder with Arduino color sensor",
+    details: [
+      "",
     ],
+    url: "github.com/Paradorn-248/Pet_feeder-Project"
   },
   {
-    name: "Prommanusorn school’s recruitment system",
-    details:[
-      "The system was created to reduce the errors in entering the computer information system in the recruitment of students annually. By the system to read information from the applicant's ID card And bring that readable data into the database and the system will automatically arrange the examination room and exam seat number for the applicants. This project made me learn to use Tkinter libraries in Python and SQLite.",
+    name: "Predicting the Chance of Lung Disease using Patient Data and Identifying the Type of Lung Disease by CT scans",
+    details: [
+      "",
     ],
+    url: "github.com/Paradorn-248/MIKELab-Project"
+  },
+  {
+    name: "TetrisGame",
+    details: [
+      "",
+    ],
+    url: "github.com/Paradorn-248/PracticumProject-TetrisGame"
   },
 ]
 export const references = [
