@@ -1,4 +1,4 @@
-export const fullVersionLink = "https://resume-paradorn.vercel.app/"
+export const fullVersionLink = "https://info-paradorn.vercel.app"
 export const sourceLink = "https://github.com/Paradorn-248/resume-website"
 export const ogImageUrl =
   "https://og-image.vercel.app/Resumette.png?theme=light&md=1&fontSize=200px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-black.svg"
@@ -11,7 +11,7 @@ export const introData = {
   github: "Paradorn-248",
   linkedin: "paradorn-watcharasemakul-4732641a1",
   location: "Bangkok, Thailand",
-  website: "resume-paradorn.vercel.app",
+  website: "info-paradorn.vercel.app",
 }
 
 export const technologies = [
