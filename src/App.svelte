@@ -23,7 +23,9 @@
 
 <Tailwind />
 
-<header class="web-only text-center p-4 sm:p-6 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white w-screen">
+<header
+  class="web-only text-center p-4 sm:p-6 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white w-screen"
+>
   <h1 class="text-4xl">Resume</h1>
   <h3>
     <button on:click={toggleMode} class="underline text-lg"
@@ -107,12 +109,12 @@
           {#if project.url == undefined}
             <strong>{project.name}</strong>
           {:else}
-            <a href="https://{project.url}" target="_blank" rel="noreferrer"
-              ><strong>{project.name}</strong></a
-            >
+            <a href="https://{project.url}" target="_blank" rel="noreferrer">
+              <strong>{project.name}</strong>
+            </a>
           {/if}
           {#each project.details as detail}
-            <ul class="index">{detail}</ul>
+            <ul class="index"><li>{detail}</li></ul>
           {/each}
         </li>
       {/each}
@@ -131,9 +133,9 @@
           {#if ref.url == undefined}
             <strong>{ref.name}</strong>
           {:else}
-            <a href="https://{ref.url}" target="_blank" rel="noreferrer"
-              ><strong>{ref.name}</strong></a
-            >
+            <a href="https://{ref.url}" target="_blank" rel="noreferrer">
+              <strong>{ref.name}</strong>
+            </a>
           {/if}
           {#each ref.details as detail}
             <i><ul class="index">{detail}</ul> </i>
