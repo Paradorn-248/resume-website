@@ -102,7 +102,7 @@
 
     <ul class="text-left list-disc pl-8">
       {#each projects as project}
-        <li>
+        
           <HideToggle />
           {#if project.url == undefined}
             <strong>{project.name}</strong>
@@ -111,10 +111,11 @@
               ><strong>{project.name}</strong></a
             >
           {/if}
+          <li>
           {#each project.details as detail}
             <ul class="index">{detail}</ul>
           {/each}
-        </li>
+          </li>
       {/each}
     </ul>
   </section>
