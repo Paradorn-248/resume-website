@@ -45,8 +45,6 @@
     > to hide some sections before printing.
   </p>
   (<a href={sourceLink} target="_blank" rel="noopener">Source</a>)
-  <p></p>
-  (<a href={fullVersionLink} target="_blank" rel="noopener">Resume Website</a>)
 </header>
 
 <main
