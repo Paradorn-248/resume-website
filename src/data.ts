@@ -88,14 +88,14 @@ export const projects = [
   {
     name: "School Club Register Website",
     details: [
-      "This project is a website to register for the school's clubs that come to use the service. School will have to pay an annual service fee. It contains important APIs such as annual payments, signing up and verifying identity via email, club registration, club reviews. This project use Express.js as backend, use HTML, CSS, ...... as frontend",
+      "This project is a website to register for the school's clubs that come to use the service. School will have to pay an annual service fee. It contains important APIs such as annual payments, signing up and verifying identity via email, club registration, club reviews. This project use Express.js as backend, use React, Next.js as frontend",
     ],
     url: "github.com/Barinstrom",
   },
   {
     name: "Safe-Home",
     details: [
-      "This project is designed to keep homes safe from accidents such as floods, gas leaks, fires, earthquakes so that homeowners can deal with them in time. This project use FastAPI as backend, use HTML, React, CSS, ...... as frontend, use Arduino to control sensor.",
+      "This project is designed to keep homes safe from accidents such as floods, gas leaks, fires, earthquakes so that homeowners can deal with them in time. This project use FastAPI as backend, use React as frontend, use Arduino to control sensor.",
     ],
     url: "github.com/Exceed-Safe-Home"
   },
