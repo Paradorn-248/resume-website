@@ -11,7 +11,7 @@ export const introData = {
   github: "Paradorn-248",
   linkedin: "paradorn-watcharasemakul-4732641a1",
   location: "Bangkok, Thailand",
-  website: "resume-paradorn.vercel.app/",
+  website: "resume-paradorn.vercel.app",
 }
 
 export const technologies = [
