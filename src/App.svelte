@@ -126,7 +126,7 @@
     <h2 class="text-2xl print:text-4xl uppercase text-left">references</h2>
     <hr />
 
-    <ul class="text-left list-disc pl-8">
+    <p class="text-left">
       {#each references as ref}
         <li>
           <HideToggle />
@@ -142,7 +142,7 @@
           {/each}
         </li>
       {/each}
-    </ul>
+    </p>
   </section>
 
   <!-- <footer class="print-only">
