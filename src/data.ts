@@ -23,7 +23,7 @@ export const technologies = [
   {
     section: "Frameworks:",
     details:
-      "ExpressJS, FastAPI, Docusaurus 2",
+      "Express.js, FastAPI, Docusaurus 2",
   },
   {
     section: "Tools:",
@@ -40,7 +40,7 @@ export const technologies = [
 export const educations = [
   {
     head: "B.Eng. Computer Engineering",
-    details: "Kasetsart University, TH. 2020-2023 (GPA 3.84 - 4 Semester)",
+    details: "Kasetsart University, TH. 2020-Current (GPA 3.84 - 4 Semesters)",
   },
 ]
 
@@ -51,25 +51,25 @@ export const workExperiences = [
     url: "http://www.asc-events.org/ASC22/",
     years: ["4", "10 Nov 2022"],
     details: [
-      "I competed in the ASC Student Supercomputer Challenge as a representative of Kasetsart University",
+      "Competed in the ASC Student Supercomputer Challenge 2022 as a representative of Kasetsart University.",
     ],
   },
   {
     position: "Teaching assistant",
-    company: "Massive Information and Knowledge Engineering Laboratory(MIKELab)",
+    company: "Massive Information and Knowledge Engineering Laboratory (MIKELab)",
     url: "https://mike.cpe.ku.ac.th/",
     years: ["Jun 2021", "Oct 2021"],
     details: [
-      "I am a teaching assistant in 01204111 Computer & Programming subject for first-year computer engineering student using python.",
+      "Was a teaching assistant in 01204111 Computer & Programming with Python for first-year computer engineering students.",
     ],
   },
   {
     position: "Participant",
-    company: "POSN Computer Olympiad Camp (2nd camp)",
+    company: "POSN Computer Olympiad Camp (second camp)",
     url: "https://web.facebook.com/ScienceSilpakornUniversity/",
     years: ["7", "22 Mar 2019"],
     details: [
-      "I participated in POSN camp to learn C and C++ language at Silpakorn University.",
+      "Participated in POSN Computer Olympiad Camp 2018 to learn C and C++ language at Silpakorn University.",
     ],
   },
   {
@@ -78,7 +78,7 @@ export const workExperiences = [
     url: "https://web.facebook.com/DAT.KUSRC",
     years: ["7", "8 May 2022"],
     details: [
-      "I participated in Digital Academy Thailand to learn AI and Machine Learning course using scikit-learn and tensorflow."
+      "Participated the AI and Machine Learning course that was provided by Digital Academy Thailand. In this course, I have used scikit-learn and tensorflow."
     ],
   },
 
@@ -88,7 +88,8 @@ export const projects = [
   {
     name: "School Club Register Website",
     details: [
-      "This project is a website to register for the school's clubs that come to use the service. School will have to pay an annual service fee. It contains important APIs such as annual payments, signing up and verifying identity via email, club registration, club reviews. This project use Express.js as backend, use React, Next.js as frontend",
+      "This project is a website for registering clubs that is used by many schools and those schools must pay an annual fee. This project includes significant APIs such as annual payments, email identity verification, subscriptions, registration clubs, and review clubs.",
+      "Express.js was used as a framwork for backend where React and Next.js were used as frameworks for frontend."
     ],
     url: "github.com/Barinstrom",
   },
