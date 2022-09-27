@@ -101,7 +101,7 @@ export const projects = [
     url: "github.com/Exceed-Safe-Home"
   },
   {
-    name: "Pet Feeder with Arduino Color Sensor",
+    name: "The Pet Specific Feeder by Arduino RGB Color Sensor",
     details: [
       "The goal of this project was to help the pet owners people who own multiple type of pets or do not have time to feed thier pets. This machine recognizes each pet by the color of the shirt it is wearing and feeds him when he enters the designated area with a number of feeding times that can be set by the pet owner.",
       "Arduino was used to control sensors and motors."
