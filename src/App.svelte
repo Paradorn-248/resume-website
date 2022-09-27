@@ -128,7 +128,6 @@
 
     <p class="text-left">
       {#each references as ref}
-        <li>
           <HideToggle />
           {#if ref.url == undefined}
             <strong>{ref.name}</strong>
@@ -138,9 +137,8 @@
             >
           {/if}
           {#each ref.details as detail}
-            <i><ul class="index">{detail}</ul> </i>
+            <i><ul class="index pl-8">{detail}</ul> </i>
           {/each}
-        </li>
       {/each}
     </p>
   </section>
