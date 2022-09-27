@@ -109,7 +109,7 @@ export const projects = [
     url: "github.com/Paradorn-248/Pet_feeder-Project"
   },
   {
-    name: "Predicting the Chance of Lung Disease using Patient Data and Identifying the Type of Lung Disease by CT scans",
+    name: "Predicting the Chance of Lung Disease Using Patient Data and Identifying the Type of Lung Disease by CT Scans",
     details: [
       "This project is about lung cancer. It was created to save the cost of CT scans for patients and help the doctors to diagnose the disease correctly. Initially, the Decision Tree Classifier model was used to predict from a patient's personal data whether they were likely to develop lung cancer. If the result comes out that there is a risk, we will use deep learning to predict type of lung cancer with CT scans picture.",
       "Scikit-learn and tensorflow were used in this project."
