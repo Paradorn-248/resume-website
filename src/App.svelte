@@ -112,7 +112,7 @@
             >
           {/if}
           {#each project.details as detail}
-            <ul class="pl-9 list-disc">
+            <ul class="list-disc">
               <li>{detail}</li>
             </ul>
           {/each}
