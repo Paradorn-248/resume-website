@@ -55,6 +55,15 @@ export const workExperiences = [
     ],
   },
   {
+    position: "Training",
+    company: "Introduction to AI and Machine Learning course",
+    url: "https://web.facebook.com/DAT.KUSRC",
+    years: ["7", "8 May 2022"],
+    details: [
+      "Participated the AI and Machine Learning course that was provided by Digital Academy Thailand. In this course, I have used scikit-learn and tensorflow."
+    ],
+  },
+  {
     position: "Teaching assistant",
     company: "Massive Information and Knowledge Engineering Laboratory (MIKELab)",
     url: "https://mike.cpe.ku.ac.th/",
@@ -72,16 +81,6 @@ export const workExperiences = [
       "Participated in POSN Computer Olympiad Camp 2018 to learn C and C++ language at Silpakorn University.",
     ],
   },
-  {
-    position: "Training",
-    company: "Introduction to AI and Machine Learning course",
-    url: "https://web.facebook.com/DAT.KUSRC",
-    years: ["7", "8 May 2022"],
-    details: [
-      "Participated the AI and Machine Learning course that was provided by Digital Academy Thailand. In this course, I have used scikit-learn and tensorflow."
-    ],
-  },
-
 ]
 
 export const projects = [
