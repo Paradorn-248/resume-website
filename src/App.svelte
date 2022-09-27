@@ -100,7 +100,7 @@
     <h2 class="text-2xl print:text-4xl uppercase text-left">Projects</h2>
     <hr />
 
-    <ul class="text-left list-none">
+    <ul class="text-left">
       {#each projects as project}
         <li>
           <HideToggle />
@@ -112,7 +112,7 @@
             >
           {/if}
           {#each project.details as detail}
-            <ul>
+            <ul class="index">
               <li>{detail}</li>
             </ul>
           {/each}
