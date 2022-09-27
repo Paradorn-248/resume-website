@@ -100,7 +100,7 @@
     <h2 class="text-2xl print:text-4xl uppercase text-left">Projects</h2>
     <hr />
 
-    <ul class="text-left list-none pl-8">
+    <ul class="text-left border-2 list-none pl-8">
       {#each projects as project}
         <li>
           <HideToggle />
