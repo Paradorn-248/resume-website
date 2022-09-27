@@ -97,28 +97,31 @@ export const projects = [
     name: "Safe-Home",
     details: [
       "This project is designed to keep homes safe from accidents such as floods, gas leaks, fires, earthquakes so that homeowners can deal with them in time.",
-      " This project use FastAPI as backend, use React as frontend, use Arduino to control sensor."
+      "FastAPI was used as a framework for backend, React was used as a framework for frontend, and Arduino was used to control sensors and motors."
     ],
     url: "github.com/Exceed-Safe-Home"
   },
   {
     name: "Pet Feeder with Arduino Color Sensor",
     details: [
-      "The goal of this project was to help the pet owners people who own multiple type of pets or do not have time to feed thier pets. This machine recognizes each pet by the color of the shirt it is wearing and feeds him when he enters the designated area with a number of feeding times that can be set by the pet owner. This project use Arduion to control sensors and motors.",
+      "The goal of this project was to help the pet owners people who own multiple type of pets or do not have time to feed thier pets. This machine recognizes each pet by the color of the shirt it is wearing and feeds him when he enters the designated area with a number of feeding times that can be set by the pet owner.",
+      "Arduino was used to control sensors and motors."
     ],
     url: "github.com/Paradorn-248/Pet_feeder-Project"
   },
   {
     name: "Predicting the Chance of Lung Disease using Patient Data and Identifying the Type of Lung Disease by CT scans",
     details: [
-      "This project is about lung cancer. It was created to save the cost of CT scans for patients and help the doctors to diagnose the disease correctly. Initially, the Decision Tree Classifier model was used to predict from a patient's personal data whether they were likely to develop lung cancer. If the result comes out that there is a risk, we will use deep learning to predict type of lung cancer with CT scans picture. This project use scikit-learn and tensorflow",
+      "This project is about lung cancer. It was created to save the cost of CT scans for patients and help the doctors to diagnose the disease correctly. Initially, the Decision Tree Classifier model was used to predict from a patient's personal data whether they were likely to develop lung cancer. If the result comes out that there is a risk, we will use deep learning to predict type of lung cancer with CT scans picture.",
+      "Scikit-learn and tensorflow were used in this project."
     ],
     url: "github.com/Paradorn-248/MIKELab-Project"
   },
   {
     name: "Tetris Upgrade",
     details: [
-      "This project is an upgraded tetris game. It has more difficult than normal tetris with more obstacle to play. While you are playing, the screen will be brighter at a random time, so you can not see any block. Then, you must use your hand to cover the light sensor to get rid of this obstacle. This project use Pygame and raspberry to connect game and controller.",
+      "This project is an upgraded tetris game. It has more difficult than normal tetris with more obstacle to play. While you are playing, the screen will be brighter at a random time, so you can not see any block. Then, you must use your hand to cover the light sensor to get rid of this obstacle.",
+      "Pygame was used to build the tetris game while Raspberry was used to connect between game and the controllers."
     ],
     url: "github.com/Paradorn-248/PracticumProject-TetrisGame"
   },
