@@ -6,7 +6,7 @@ export const ogImageUrl =
 export const introData = {
   name: "Paradorn Watcharasemakul",
   nickname: "Erk",
-  phone: "0877529585",
+  phone: "",
   email: "paradorn248@gmail.com",
   github: "Paradorn-248",
   linkedin: "paradorn-watcharasemakul-4732641a1",
@@ -89,35 +89,36 @@ export const projects = [
     name: "School Club Register Website",
     details: [
       "This project is a website for registering clubs that is used by many schools and those schools must pay an annual fee. This project includes significant APIs such as annual payments, email identity verification, subscriptions, registration clubs, and review clubs.",
-      "Express.js was used as a framwork for backend where React and Next.js were used as frameworks for frontend."
+      "Express.js was used as a framework for backend where React and Next.js were used as frameworks for frontend."
     ],
     url: "github.com/Barinstrom",
   },
   {
     name: "Safe-Home",
     details: [
-      "This project is designed to keep homes safe from accidents such as floods, gas leaks, fires, earthquakes so that homeowners can deal with them in time. This project use FastAPI as backend, use React as frontend, use Arduino to control sensor.",
+      "This project is designed to keep homes safe from accidents such as floods, gas leaks, fires, earthquakes so that homeowners can deal with them in time.",
+      " This project use FastAPI as backend, use React as frontend, use Arduino to control sensor."
     ],
     url: "github.com/Exceed-Safe-Home"
   },
   {
-    name: "Pet feeder with Arduino color sensor",
+    name: "Pet Feeder with Arduino Color Sensor",
     details: [
-      "This project was created so that people who own dogs or cats don't have to hire someone to take care of their pets when they're not around or some people have different kinds of animals, they have to feed differently. This machine will feed the pet only when the animal is within the operating range of the machine and wears a shirt of the specific color to the machine color sensor. This project use Arduion to control sensors and motors.",
+      "The goal of this project was to help the pet owners people who own multiple type of pets or do not have time to feed thier pets. This machine recognizes each pet by the color of the shirt it is wearing and feeds him when he enters the designated area with a number of feeding times that can be set by the pet owner. This project use Arduion to control sensors and motors.",
     ],
     url: "github.com/Paradorn-248/Pet_feeder-Project"
   },
   {
     name: "Predicting the Chance of Lung Disease using Patient Data and Identifying the Type of Lung Disease by CT scans",
     details: [
-      "This project is about lung cancer. It was created to save people the cost of CT scans and help the doctor to diagnose the disease correctly. Initially, the Decision Tree Classifier model was used to predict from a patient's personal data whether they were likely to develop lung cancer. If the result comes out that there is a chance. We will use deep learning to help predict  type of lung cancer with CT scans picture. This project use scikit-learn and tensorflow",
+      "This project is about lung cancer. It was created to save the cost of CT scans for patients and help the doctors to diagnose the disease correctly. Initially, the Decision Tree Classifier model was used to predict from a patient's personal data whether they were likely to develop lung cancer. If the result comes out that there is a risk, we will use deep learning to predict type of lung cancer with CT scans picture. This project use scikit-learn and tensorflow",
     ],
     url: "github.com/Paradorn-248/MIKELab-Project"
   },
   {
     name: "Tetris Upgrade",
     details: [
-      "This project is an upgraded tetris game. It has more difficult than normal tetris with more obstacle to play, screen will brighter so you can not see any block.you can use your hand cover light sensor to remove this obstacle.This project use Pygame and raspberry to connect game and controller.",
+      "This project is an upgraded tetris game. It has more difficult than normal tetris with more obstacle to play. While you are playing, the screen will be brighter at a random time, so you can not see any block. Then, you must use your hand to cover the light sensor to get rid of this obstacle. This project use Pygame and raspberry to connect game and controller.",
     ],
     url: "github.com/Paradorn-248/PracticumProject-TetrisGame"
   },
