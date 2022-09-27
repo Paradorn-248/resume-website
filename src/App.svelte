@@ -100,7 +100,7 @@
     <h2 class="text-2xl print:text-4xl uppercase text-left">Projects</h2>
     <hr />
 
-    <ul class="text-left list-disc pl-8">
+    <ul class="text-left list-none pl-8">
       {#each projects as project}
         <li>
           <HideToggle />
@@ -126,7 +126,7 @@
 
     <ul class="text-left list-disc pl-8">
       {#each references as ref}
-        
+        <li>
           <HideToggle />
           {#if ref.url == undefined}
             <strong>{ref.name}</strong>
@@ -138,7 +138,7 @@
           {#each ref.details as detail}
             <i><ul class="index">{detail}</ul> </i>
           {/each}
-        
+        </li>
       {/each}
     </ul>
   </section>
