@@ -23,7 +23,9 @@
 
 <Tailwind />
 
-<header class="web-only text-center p-4 sm:p-6 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white w-screen">
+<header
+  class="web-only text-center p-4 sm:p-6 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white w-screen"
+>
   <h1 class="text-4xl">Resume</h1>
   <h3>
     <button on:click={toggleMode} class="underline text-lg"
@@ -100,23 +102,23 @@
     <h2 class="text-2xl print:text-4xl uppercase text-left">Projects</h2>
     <hr />
 
-    <ul class="text-left list-disc pl-8">
+    <p class="text-left list-disc pl-8">
       {#each projects as project}
-          <HideToggle />
-          {#if project.url == undefined}
-            <strong>{project.name}</strong>
-          {:else}
-            <a href="https://{project.url}" target="_blank" rel="noreferrer"
-              ><strong>{project.name}</strong></a
-            >
-          {/if}
-          <ul class="index">
+        <HideToggle />
+        {#if project.url == undefined}
+          <strong>{project.name}</strong>
+        {:else}
+          <a href="https://{project.url}" target="_blank" rel="noreferrer"
+            ><strong>{project.name}</strong></a
+          >
+        {/if}
+        <ul class="index">
           {#each project.details as detail}
             <li>{detail}</li>
           {/each}
-          </ul>
+        </ul>
       {/each}
-    </ul>
+    </p>
   </section>
 
   <section>
