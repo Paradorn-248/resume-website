@@ -6,7 +6,7 @@ export const ogImageUrl =
 export const introData = {
   name: "Paradorn Watcharasemakul",
   nickname: "Erk",
-  phone: "",
+  phone: "0877529585",
   email: "paradorn248@gmail.com",
   github: "Paradorn-248",
   linkedin: "paradorn-watcharasemakul-4732641a1",
