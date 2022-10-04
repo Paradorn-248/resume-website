@@ -18,12 +18,12 @@ export const technologies = [
   {
     section: "Languages:",
     details:
-      "C, C++, Python, Javascript, SQL, Shell script",
+      "Go, C, C++, Python, Javascript, SQL, Shell script",
   },
   {
     section: "Frameworks:",
     details:
-      "Express.js, FastAPI, Docusaurus 2",
+      "Fiber, Express.js, FastAPI, Docusaurus 2",
   },
   {
     section: "Tools:",
