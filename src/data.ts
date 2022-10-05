@@ -120,7 +120,7 @@ export const projects = [
     name: "Tetris Upgrade",
     details: [
       "This project is an upgraded tetris game. It has more difficult than normal tetris with more obstacle to play. While you are playing, the screen will be brighter at a random time, so you can not see any block. Then, you must use your hand to cover the light sensor to get rid of this obstacle.",
-      "Pygame was used to build the tetris game while Raspberry was used to connect between game and the controllers."
+      "Pygame was used to build the tetris game while Raspberry Pi was used to connect between game and the controllers."
     ],
     url: "github.com/Paradorn-248/PracticumProject-TetrisGame"
   },
