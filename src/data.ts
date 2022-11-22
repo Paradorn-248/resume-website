@@ -33,7 +33,7 @@ export const technologies = [
   {
     section: "Other:",
     details:
-      "Vercel, MongoDB Atlas",
+      "Vercel, MongoDB Atlas, Heroku",
   },
 ]
 
