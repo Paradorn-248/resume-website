@@ -23,7 +23,7 @@ export const technologies = [
   {
     section: "Frameworks:",
     details:
-      "Fiber, Express.js, FastAPI, Docusaurus 2",
+      "Gin, Express.js, FastAPI, Docusaurus 2",
   },
   {
     section: "Tools:",
