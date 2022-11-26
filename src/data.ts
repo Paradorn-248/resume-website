@@ -33,18 +33,27 @@ export const technologies = [
   {
     section: "Other:",
     details:
-      "Vercel, MongoDB Atlas, Heroku",
+      "Vercel, MongoDB Atlas, Heroku, Koyeb",
   },
 ]
 
 export const educations = [
   {
     head: "B.Eng. Computer Engineering",
-    details: "Kasetsart University, TH. 2020-Current (GPA 3.84 - 4 Semesters)",
+    details: "Kasetsart University, TH. 2020-Current (GPA 3.71 - 5 Semesters)",
   },
 ]
 
 export const workExperiences = [
+  {
+    position: "Training",
+    company: "Do your own DevOps with GitHub actions",
+    url: "https://www.facebook.com/techatagoda/posts/pfbid0373BV1qQroTQiaBMKFmBMwYWjyKzmiPnHgLPW4qJJGSowFbFG1YRv7YvgTGWz5W81l",
+    years: ["23 Nov 2022"],
+    details: [
+      "Participated in Agoda Tech Workshop on DevOps with GitHub Actions. Learned CI/CD workflow automation from commits to production.",
+    ],
+  },
   {
     position: "Finalist",
     company: "ASC Student Supercomputer Challenge",
