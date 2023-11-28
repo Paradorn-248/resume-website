@@ -105,7 +105,7 @@ export const workExperiences = [
     url: "https://lmwn.com/",
     years: ["April 2023", "Current"],
     details: [
-      "Part time in position software engineer, Backend(Golang) at LINE MAN WONGNAI. I have learned a lot of tools and development processes. I have done on-call during this period.",
+      "Part time in position software engineer, Backend(Golang) at LINE MAN WONGNAI. I have done on-call during this period.",
     ],
   },
 ]
