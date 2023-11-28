@@ -18,7 +18,7 @@ export const technologies = [
   {
     section: "Languages:",
     details:
-      "Go, C, C++, Python, Javascript, SQL, Shell script",
+      "Go, C, C++, Python, Javascript, SQL, Kotlin, Shell script",
   },
   {
     section: "Frameworks:",
@@ -28,19 +28,19 @@ export const technologies = [
   {
     section: "Tools:",
     details:
-      "Git, Docker, Arduino, Markdown",
+      "Argo CD, Git, Postman, Jenkins, Docker, Rancher, Arduino, Markdown, RabbitMQ, Kibana, Elastic Search, Grafana, Redis, Sentry, Unleash",
   },
   {
     section: "Other:",
     details:
-      "Vercel, MongoDB Atlas, Heroku, Koyeb",
+      "Vercel, MongoDB Atlas, Heroku, Koyeb, Jira",
   },
 ]
 
 export const educations = [
   {
     head: "B.Eng. Computer Engineering",
-    details: "Kasetsart University, TH. 2020-Current (GPA 3.71 - 5 Semesters)",
+    details: "Kasetsart University, TH. 2020-Current (GPA 3.75 - 7 Semesters)",
   },
 ]
 
@@ -88,6 +88,24 @@ export const workExperiences = [
     years: ["7", "22 Mar 2019"],
     details: [
       "Participated in POSN Computer Olympiad Camp 2018 to learn C and C++ language at Silpakorn University.",
+    ],
+  },
+  {
+    position: "Cooperative student",
+    company: "Cooperative student at LINE MAN WONGNAI",
+    url: "https://lmwn.com/",
+    years: ["April 2023", "September 2023"],
+    details: [
+      "Was cooperative student in position software engineer, Backend(Golang) at LINE MAN WONGNAI. I have learned a lot of tools and development processes.",
+    ],
+  },
+  {
+    position: "Part Time",
+    company: "Part Time at LINE MAN WONGNAI",
+    url: "https://lmwn.com/",
+    years: ["April 2023", "Current"],
+    details: [
+      "Part time in position software engineer, Backend(Golang) at LINE MAN WONGNAI. I have learned a lot of tools and development processes. I have done on-call during this period.",
     ],
   },
 ]
