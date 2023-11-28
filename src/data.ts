@@ -96,7 +96,7 @@ export const workExperiences = [
     url: "https://lmwn.com/",
     years: ["April 2023", "September 2023"],
     details: [
-      "Was cooperative student in position software engineer, Backend(Golang) at LINE MAN WONGNAI. I have learned a lot of tools and development processes.",
+      "Was cooperative student in position software engineer, Backend(Golang) at LINE MAN WONGNAI. I have learned a lot of tools such as . In LINE MAN WONGNAI we use scrum process to develop product.",
     ],
   },
   {
