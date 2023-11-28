@@ -92,20 +92,20 @@ export const workExperiences = [
   },
   {
     position: "Cooperative student",
-    company: "Cooperative student at LINE MAN WONGNAI",
+    company: "Cooperative student at LINE MAN Wongnai",
     url: "https://lmwn.com/",
     years: ["April 2023", "September 2023"],
     details: [
-      "Was cooperative student in position software engineer, Backend(Golang) at LINE MAN WONGNAI. I have learned a lot of tools such as Rancher, RabbitMQ, Kibana, Elastic Search, Grafana, Redis, Sentry, Unleash. In LINE MAN WONGNAI we use scrum process to develop product.",
+      "Was cooperative student in position software engineer, Backend(Golang) at LINE MAN Wongnai. I have learned a lot of tools such as Rancher, RabbitMQ, Kibana, Elastic Search, Grafana, Redis, Sentry, Unleash. In LINE MAN Wongnai we use scrum process to develop product.",
     ],
   },
   {
     position: "Part Time",
-    company: "Part Time at LINE MAN WONGNAI",
+    company: "Part Time at LINE MAN Wongnai",
     url: "https://lmwn.com/",
     years: ["April 2023", "Current"],
     details: [
-      "Part time in position software engineer, Backend(Golang) at LINE MAN WONGNAI. I have done on-call during this period.",
+      "Part time in position software engineer, Backend(Golang) at LINE MAN Wongnai. I have done on-call during this period.",
     ],
   },
 ]
