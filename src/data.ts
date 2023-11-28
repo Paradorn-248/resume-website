@@ -155,7 +155,7 @@ export const projects = [
     name: "Senior Project - Access Control Terminal with Real-Face Recognition",
     details: [
       "This project is android application that detect human face and recognize that face to open the door. In the future we will use this terminal in Kasetsart University.",
-      "Kotlin was used to create application. ML Kit for face detection. Arduino was used to control the door."
+      "Kotlin and ML Kit was used to create application and for face detection respectively. For hardware, Arduino was used to control the door."
     ],
     url: "github.com/ku-final-project"
   },
