@@ -69,7 +69,7 @@ export const workExperiences = [
     url: "https://web.facebook.com/DAT.KUSRC",
     years: ["7", "8 May 2022"],
     details: [
-      "Participated the AI and Machine Learning course that was provided by Digital Academy Thailand. In this course, I have used scikit-learn and tensorflow."
+      "Participated the AI and Machine Learning course that was provided by Digital Academy Thailand. In this course, I have used scikit-learn and TensorFlow."
     ],
   },
   {
@@ -139,7 +139,7 @@ export const projects = [
     name: "Predicting the Chance of Lung Disease Using Patient Data and Identifying the Type of Lung Disease by CT Scans",
     details: [
       "This project is about lung cancer. It was created to save the cost of CT scans for patients and help the doctors to diagnose the disease correctly. Initially, the Decision Tree Classifier model was used to predict from a patient's personal data whether they were likely to develop lung cancer. If the result comes out that there is a risk, we will use deep learning to predict type of lung cancer with CT scans picture.",
-      "Scikit-learn and tensorflow were used in this project."
+      "Scikit-learn and TensorFlow were used in this project."
     ],
     url: "github.com/Paradorn-248/MIKELab-Project"
   },
@@ -150,6 +150,14 @@ export const projects = [
       "Pygame was used to build the tetris game while Raspberry Pi was used to connect between game and the controllers."
     ],
     url: "github.com/Paradorn-248/PracticumProject-TetrisGame"
+  },
+  {
+    name: "Senior Project - Access Control Terminal with Real-Face Recognition",
+    details: [
+      "This project is android application that detect human face and recognize that face to open the door. In the future we will use this terminal in Kasetsart University.",
+      "Kotlin was used to create application. ML Kit for face detection. Arduino was used to control the door."
+    ],
+    url: "github.com/ku-final-project"
   },
 ]
 
